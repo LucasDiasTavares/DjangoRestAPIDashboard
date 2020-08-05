@@ -87,7 +87,7 @@ CORS_ORIGIN_WHITELIST = [
 - Logo após criar um novo usuário você deve ativa-lo confirmando o email:
 <br>
 <img src="imagens/authentication/EmailLinkAtivacao2.png" /> <br>
-<img src="imagens/authentication/EmailLinkAtivacao.png" /> <br>
+<img src="imagens/authentication/EmailLinkDeAtivacao.png" /> <br>
 
 - Ao clicar no link irá receber um success:
 <br>
@@ -111,7 +111,7 @@ CORS_ORIGIN_WHITELIST = [
 <img src="imagens/authentication/PasswordResetComplete.png" /> <br>
 - Logo em seguida você irá ter a seguinte response:
 <br>
-<img src="imagens/authentication/PasswordResetCompleteSuccess" /> <br>
+<img src="imagens/authentication/PasswordResetCompleteSuccess.png" /> <br>
 - Caso contrario irá receber dizendo que o token é invalido, caso já tenha expirado além dos outros erros base, por exemplo o da senha.
 <br>
 <img src="imagens/authentication/ResetPasswordTokenInvalid.png" /> <br>
