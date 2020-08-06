@@ -118,7 +118,16 @@ CORS_ORIGIN_WHITELIST = [
 <img src="imagens/authentication/ResetPasswordTokenInvalid.png" /> <br>
 
 ## DashboardUser
-- Explicar as coisas dos gráficos e endpoints, em andamento.
+- Total gasto de aproximadamente há um ano.
+<br>
+<img src="imagens/dashboard/ExpensesCategorySumary.png" /> <br>
+
+- Total ganhos de aproximadamente há um ano.
+<br>
+<img src="imagens/dashboard/IncomeSourceSumary.png" /> <br>
+
+- Total gasto de aproximadamente do mês (em andamento)
+- Total gasto de aproximadamente do mês (em andamento)
 
 ## Unit Testing Authentication
 - Utilização do [Facker](https://faker.readthedocs.io/en/master/), para que seja gerado informações aleatórias facilitando a escrita dos testes.
