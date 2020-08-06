@@ -7,6 +7,7 @@
 - [DRF-YASG](https://drf-yasg.readthedocs.io/en/stable/readme.html)
 - [Python Decouple](https://github.com/henriquebastos/python-decouple)
 - [Django Cors Headers](https://pypi.org/project/django-cors-headers/)
+- [Faker](https://faker.readthedocs.io/en/master/)
 
 ## Entendendo a aplicação e algumas peculialidades
 
@@ -18,7 +19,7 @@ EMAIL_HOST_USER=usuario do seu provedor de email
 EMAIL_HOST_PASSWORD=senha do seu provedor de email
 ```
 
-- Crie um virtual enviroment, ative o mesmo e utilize o seguinte comando para instalar as dependência do projeto. `pip install -r retuirements.txt`
+- Crie um virtual enviroment, ative o mesmo e utilize o seguinte comando para instalar as dependência do projeto. `pip install -r requirements.txt`
 
 #### DRF Renderers
 - Utilizado para criar responses customizadas reutilizáveis
@@ -120,4 +121,6 @@ CORS_ORIGIN_WHITELIST = [
 - Explicar as coisas dos gráficos e endpoints, em andamento.
 
 ## Unit Testing Authentication
-- Em andamento, testes simples
+- Utilização do [Facker](https://faker.readthedocs.io/en/master/), para que seja gerado informações aleatórias facilitando a escrita dos testes.
+- test_setup -> TestSetUp: Contém a base dos dados e as urls que tem testes criados
+- test_view.py -> TestViews: Contém 4 testes simples de exemplo
