@@ -1,3 +1,4 @@
+import django_heroku
 import os
 from datetime import timedelta
 from decouple import config
@@ -125,3 +126,5 @@ EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_HOST_USER = config('EMAIL_HOST_USER')
 EMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')
+
+django_heroku.settings(locals())
